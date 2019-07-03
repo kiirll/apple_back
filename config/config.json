@@ -1,0 +1,7 @@
+{
+    "port" : 4000,
+    "dbUrl": "",
+    "dbName": "",
+    "dbUser": "",
+    "dbPassword": ""
+}

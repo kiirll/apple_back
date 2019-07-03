@@ -1,0 +1,30 @@
+{
+  "name": "apple-back",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly ./app/app.ts",
+    "prod": "tsc && node ./build/app.js"
+  },
+  "private": true,
+  "dependencies": {
+    "@types/express": "^4.17.0",
+    "cookie": "^0.3.1",
+    "db-migrate": "^0.11.6",
+    "db-migrate-pg": "^1.0.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "pg": "^7.11.0",
+    "pg-promise": "^8.7.2",
+    "respawn": "^2.6.0",
+    "sequelize-cli": "^5.5.0",
+    "ts-node-dev": "^1.0.0-pre.40",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.5.2"
+  },
+  "devDependencies": {},
+  "author": "KK",
+  "license": "ISC",
+  "description": ""
+}

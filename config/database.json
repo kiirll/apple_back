@@ -1,0 +1,13 @@
+{
+    "dev": {
+        "driver": "QPSQL",
+        "host": "localhost",
+        "database": "apple",
+        "port" : 5432,
+        "user": "kirill",
+        "password": "adminpass"
+    },
+    "prod": {
+
+    }
+}
